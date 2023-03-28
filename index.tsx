@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import React from 'react';
 import io from "socket.io-client";
 
 const socket = io(process.env.REACT_APP_CHAT_SERVER_URL);
