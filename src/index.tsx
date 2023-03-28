@@ -1,4 +1,4 @@
-require('dotenv').config();
+import process from 'process';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Chat from './components/Chat';
