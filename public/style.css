@@ -1,0 +1,23 @@
+/* styles pour la page */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* styles pour le chat */
+  .chat-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: 400px;
+    overflow-y: scroll;
+  }
+  
+  .chat-container > p {
+    margin: 0 0 10px;
+  }
+  
+  .chat-input {
+    margin-top: 10px;
+  }
+  
